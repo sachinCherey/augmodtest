@@ -52,4 +52,5 @@ h1{
 #sh>li{
     color: blue;
     text-decoration: underline;
+    cursor:pointer;
 }

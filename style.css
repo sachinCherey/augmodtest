@@ -1,0 +1,55 @@
+#outer{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#current-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#current-image-container>img{
+    width: 80%;
+    height: 480px;
+}
+
+p{
+    width: 80%;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#search-form>input,#search-form>button{
+    height: 40px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sh>li{
+    color: blue;
+    text-decoration: underline;
+}
